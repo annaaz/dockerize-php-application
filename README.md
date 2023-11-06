@@ -30,6 +30,6 @@ Here we will run php script inside **app** folder kindly follow these detail ins
 `docker compose up` you can add **-d ** if you want run in it , in the background
 
 > Additonal notes : 
-- docker ps | grep mydemophpimage : command for check exisiting proses .
-- docker exec -it docker_file_container_name bash : commad for acces the docker server more less ssh access . 
+- `docker ps | grep mydemophpimage` : command for check exisiting proses .
+- `docker exec -it docker_file_container_name bash` : commad for acces the docker server more less ssh access . 
 
